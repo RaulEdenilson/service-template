@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  pr-validate:
+    uses: RaulEdenilson/platform-ci/.github/workflows/pr-validate.yml@main
+    with:
+      service_path: .

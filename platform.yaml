@@ -1,0 +1,7 @@
+service:
+  name: example-service
+  type: backend
+  exposure: internal
+
+risk:
+  tier: experimental
