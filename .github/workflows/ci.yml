@@ -9,4 +9,4 @@ jobs:
   pr-validate:
     uses: RaulEdenilson/platform-ci/.github/workflows/pr-validate.yml@main
     with:
-      service_path: .
+      service_path: "."
